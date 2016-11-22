@@ -250,6 +250,7 @@ function CourseInfo(){
     $("#courseState").append(golfCourse.course.state_or_province);
     $("#coursePhone").append(golfCourse.course.phone);
     $("#courseWebsite").attr("href", golfCourse.course.website);
+    $("#courseWebsite").attr("target", "_blank");
 
     $("#courseInfo").removeClass("hide");
     $("#currentConditions").removeClass("hide");
@@ -364,10 +365,6 @@ function ChangeName(id){
 }
 
 
-function loadBG(){
-    document.body.style.backgroundImage="url(images/golfBig.jpg)";
-}
-window.onload=loadBG();
 
 
 

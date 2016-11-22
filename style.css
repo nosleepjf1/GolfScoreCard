@@ -1,6 +1,9 @@
 body {
-    height: 1200px;
-
+    background: url(images/golfBig.jpg) no-repeat left center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     background-size: cover;
 }
 .whiteSpace {
